@@ -9,8 +9,6 @@ public class Main {
         TextReader stream = new Authentication(new Scrambling(new Worker()));
         String[] str = {new String()};
         stream.write(str);
-        System.out.print("DEBUG: ");
-        System.out.println(Arrays.toString(str));
         System.out.println("main:\t\t" + str[0]);
         stream.read(str);
     }
