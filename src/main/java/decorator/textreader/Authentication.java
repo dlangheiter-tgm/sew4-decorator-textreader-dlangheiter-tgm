@@ -20,7 +20,15 @@ public class Authentication extends Decorator {
 	}
 
 	public void read(String[] s) {
-
+		System.out.print("PASSWORD:\t\t");
+		String[] sn = new String[2];
+		sn[0] = s[0];
+		try {
+			sn[1] = in.readLine();
+			textReader.read(sn);
+		} catch (IOException ex) {
+			ex.printStackTrace();
+		}
 	}
 
 }

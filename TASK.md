@@ -51,9 +51,9 @@ Implementieren Sie die Klasse ``TextReader`` als Interface. Welche Veränderunge
 ## Bewertung
 Gruppengrösse: 1 Person
 ### Grundanforderungen **überwiegend erfüllt**
-- [ ] Code ausführbar machen
-- [ ] Kurze Dokumentation des Decorator-Patterns schreiben
-- [ ] Implementierung von ``Authentication`` und ``Scrambling`` abschließen
+- [x] Code ausführbar machen
+- [x] Kurze Dokumentation des Decorator-Patterns schreiben
+- [x] Implementierung von ``Authentication`` und ``Scrambling`` abschließen
 - [ ] gewünschte Funktionalität über ``Main`` überprüfen
 ### Grundanforderungen **zur Gänze erfüllt**
 - [ ] ``TextReader`` als Interface umsetzen
