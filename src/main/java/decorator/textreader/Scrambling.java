@@ -1,14 +1,5 @@
 package decorator.textreader;
 
-import javax.crypto.Cipher;
-import javax.crypto.SecretKey;
-import javax.crypto.SecretKeyFactory;
-import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.PBEKeySpec;
-import javax.crypto.spec.SecretKeySpec;
-import java.security.spec.KeySpec;
-import java.util.Base64;
-
 /**
  * Class to encrypt/decrypt text.
  * Encryption: Supplied array needs to be the password, next decorator needs to be the text
