@@ -56,7 +56,7 @@ Gruppengrösse: 1 Person
 - [x] Implementierung von ``Authentication`` und ``Scrambling`` abschließen
 - [x] gewünschte Funktionalität über ``Main`` überprüfen
 ### Grundanforderungen **zur Gänze erfüllt**
-- [ ] ``TextReader`` als Interface umsetzen
+- [x] ``TextReader`` als Interface umsetzen
 - [ ] Änderungen entsprechend dokumentieren und dabei Vor-/Nachteile anführen
 - [ ] gewünschte Funktionalität in Testcases überprüfen
 - [ ] mögliche Fehlerfälle überprüfen (Grenzwerte, Eingabefehler)
