@@ -22,3 +22,4 @@ Auch wenn man ihn davor nur einmal definieren musse
 * [Info about println/line separator](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println())
 * [Get line separator property](https://stackoverflow.com/questions/207947/how-do-i-get-a-platform-dependent-new-line-character)
 * [System.in JUnit Testing](https://stackoverflow.com/questions/1647907/junit-how-to-simulate-system-in-testing)
+* [Mocking Mockito](https://site.mockito.org/)
