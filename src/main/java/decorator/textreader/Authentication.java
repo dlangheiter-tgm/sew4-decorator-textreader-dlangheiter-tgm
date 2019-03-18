@@ -1,11 +1,14 @@
 package decorator.textreader;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * Class to read password from User
  */
 public class Authentication extends Decorator {
+	private BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 	private TextReader textReader;
 
 	public Authentication(TextReader textReader) {
