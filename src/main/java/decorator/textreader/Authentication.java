@@ -2,6 +2,9 @@ package decorator.textreader;
 
 import java.io.IOException;
 
+/**
+ * Class to read password from User
+ */
 public class Authentication extends Decorator {
 	private TextReader textReader;
 

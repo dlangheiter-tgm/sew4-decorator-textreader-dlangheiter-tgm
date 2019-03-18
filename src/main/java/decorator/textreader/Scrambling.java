@@ -1,7 +1,5 @@
 package decorator.textreader;
 
-import com.sun.javaws.exceptions.ErrorCodeResponseException;
-
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
@@ -11,6 +9,11 @@ import javax.crypto.spec.SecretKeySpec;
 import java.security.spec.KeySpec;
 import java.util.Base64;
 
+/**
+ * Class to encrypt/decrypt text.
+ * Encryption: Supplied array needs to be the password, next decorator needs to be the text
+ * Decryption: Supplied array needs to be [input, password], gives the decrypted text further
+ */
 public class Scrambling extends Decorator {
     private TextReader textReader;
     private static String salt = "ssshhhhhhhhhhh!!!!";

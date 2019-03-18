@@ -14,3 +14,7 @@ dependencies {
 }
 
 mainClassName = 'decorator.textreader.Main'
+
+run {
+    standardInput = System.in
+}

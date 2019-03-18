@@ -54,7 +54,7 @@ Gruppengrösse: 1 Person
 - [x] Code ausführbar machen
 - [x] Kurze Dokumentation des Decorator-Patterns schreiben
 - [x] Implementierung von ``Authentication`` und ``Scrambling`` abschließen
-- [ ] gewünschte Funktionalität über ``Main`` überprüfen
+- [x] gewünschte Funktionalität über ``Main`` überprüfen
 ### Grundanforderungen **zur Gänze erfüllt**
 - [ ] ``TextReader`` als Interface umsetzen
 - [ ] Änderungen entsprechend dokumentieren und dabei Vor-/Nachteile anführen
